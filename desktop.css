@@ -1,0 +1,101 @@
+@media screen and (min-width: 1200px) {
+  .img-hero-tablet {
+    display: none;
+  }
+
+  .img-hero-desktop {
+    display: inline-block;
+  }
+
+  .title {
+    display: none;
+  }
+
+  .box-one-tablet {
+    display: none;
+  }
+
+  .box-one-desktop {
+    display: inline-block;
+  }
+
+  .box-three-tablet {
+    display: none;
+  }
+
+  .box-three-desktop {
+    display: inline-block;
+  }
+
+  .box-four-tablet {
+    display: none;
+  }
+
+  .box-four-desktop {
+    display: inline-block;
+  }
+
+
+
+  .title-one {
+    display: block;
+    font-family:'Big Shoulders Display'; 
+    font-size: 9.6em;
+    font-weight: 900;
+    line-height: 88px;
+    width: 585px;
+    position: absolute;
+    top: 189px;
+    left: 160px;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-image: linear-gradient(90deg, white 50%, black 50%);
+  }
+
+  .background-with-image {
+    width: 450px;
+    height: 800px;
+    display: inline-block;
+    margin-left: 0px;
+    position: relative;
+    background-color: black;
+  }
+
+  header {
+    left: 63%;
+  }
+
+  .grid-conteiner {
+    padding: 0 165px;
+    margin-top: 180px;
+    grid-gap: 30px;
+  }
+
+  .box-two h1 {
+    width: 290px;
+    line-height: 60px;
+    margin-top: 60px;
+    margin-bottom: 32px;
+  }
+
+  .box-two p {
+    width: 290px;
+  }
+
+  .box-five  {
+    width: 445px;
+    height: 377px;
+  }
+
+  footer {
+    margin-top: 180px;
+    height: 244px;
+    padding: 80px 165px;
+  }
+
+  footer p {
+    width: 430px;
+  }
+
+
+}

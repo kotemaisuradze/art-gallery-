@@ -1,0 +1,29 @@
+@media screen and (min-width: 1200px) {
+  .map-tablet {
+    display: none;
+  }
+
+  .map-desktop {
+    display:block;
+    margin: 0 auto;
+  }
+
+  .info {
+    min-width: 1200px;
+    height: 548px;
+  }
+
+  footer {
+    min-width: 1200px;
+    height: 244px; 
+    padding: 80px 165px;
+  }
+
+  footer p {
+    width: 380px;
+  }
+
+  .back-button {
+    left: 160px;
+  }
+}

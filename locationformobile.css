@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@800&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.map-tablet {
+  display: none;
+}
+
+.map-desktop {
+  display: none;
+}
+
+body {
+  font-size: 10px;
+}
+
+.map-mobile {
+  display: block;
+  margin: 0 auto;
+}
+
+.info {
+  background-color: #151515;
+  min-width: 375px;
+  height: 493px;
+  padding: 16px;
+}
+
+.box-one{
+  height: 352px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.box {
+  height: 95px;
+  display: flex;
+  align-items: center;
+}
+
+.box h1 {
+  font-family:'Big Shoulders Display'; 
+  display: inline-block;
+  color: #FFFFFF;
+  font-size: 5em;
+  font-weight: 900;
+  line-height: 45px;
+}
+
+.info h3 {
+  font-family:'Big Shoulders Display';
+  display: inline-block;
+  color: #D5966C;
+  font-size: 3.2em;
+  font-weight: 900;
+  line-height: 32px;
+}
+
+.info p {
+  font-family: 'outfit';
+  color: #FFFFFF;
+  font-size: 1.8em;
+  font-weight: 300;
+  line-height: 28px;
+  width: 343px;
+}
+
+footer {
+  min-width: 375px;
+  height: 336px;
+  background-color: #D5966C;
+  padding: 0 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+footer h4 {
+  font-family:'Big Shoulders Display';
+  display: inline-block;
+  font-size: 2.5em;
+  }
+
+footer p {
+  font-family: 'autfit';
+  font-size: 1.6em;
+  font-weight: 300;
+  line-height: 26px;
+  color: #151515;
+  width: 310px;
+}
+
+.footer-icon {
+  display: flex;
+  justify-content: space-between;
+  width: 100px;
+}
+
+.footer-icon img {
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.footer-icon img:hover {
+  filter: invert(100%);
+}
+
+.back-button {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+a {
+  text-decoration: none;
+  display: flex;
+}
+
+.excess {
+  width: 56px;
+  height: 72px;
+  background-color: #D5966C;
+  color: #FFFFFF;
+  font-size: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.back {
+  font-family:'Big Shoulders Display'; 
+  width: 204px;
+  height: 72px;
+  background-color: #151515;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+  font-weight: 800;
+  line-height: 23.94px;
+  color: white;
+  letter-spacing: 3px;
+  transition: 0.5s;
+}
+
+.back:hover {
+  background-color: #D5966C;
+}
